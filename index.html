@@ -13,14 +13,14 @@
 
 ```
 :root {
-  --bg: #fafaf8;
-  --bg-secondary: #f4f3f0;
-  --bg-tertiary: #eeede9;
+  --bg: #f5f3ef;
+  --bg-secondary: #edeae4;
+  --bg-tertiary: #e4e0d8;
   --text: #1a1a18;
   --text-secondary: #6b6b66;
   --text-tertiary: #a8a8a2;
-  --border: rgba(26,26,24,0.12);
-  --border-strong: rgba(26,26,24,0.25);
+  --border: rgba(26,26,24,0.14);
+  --border-strong: rgba(26,26,24,0.28);
 }
 
 html { scroll-behavior: smooth; }
@@ -40,7 +40,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 3rem;
+  padding: 1.25rem 3rem;
   border-bottom: 0.5px solid var(--border);
   position: sticky;
   top: 0;
@@ -49,7 +49,7 @@ nav {
 }
 
 .logo-img {
-  height: 52px;
+  height: 68px;
   width: auto;
   display: block;
 }
@@ -275,7 +275,7 @@ footer {
   border-top: 0.5px solid var(--border); padding: 2.5rem 3rem;
   display: flex; align-items: center; justify-content: space-between;
 }
-.footer-logo { height: 36px; width: auto; display: block; opacity: 0.65; }
+.footer-logo { height: 48px; width: auto; display: block; opacity: 0.65; }
 .footer-links { display: flex; gap: 2rem; list-style: none; }
 .footer-links a { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-tertiary); text-decoration: none; transition: color 0.2s; }
 .footer-links a:hover { color: var(--text-secondary); }
@@ -296,7 +296,7 @@ footer {
 @media (max-width: 900px) {
   nav { padding: 1rem 1.5rem; }
   .nav-links { display: none; }
-  .logo-img { height: 44px; }
+  .logo-img { height: 56px; }
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .hero-left { padding: 4rem 1.5rem 3rem; border-right: none; border-bottom: 0.5px solid var(--border); }
   .hero-right { padding: 3rem 1.5rem; min-height: 340px; }
@@ -530,7 +530,7 @@ We work quietly. We do not advertise our clients’ situations. We report clearl
       <h2 class="contact-title">What's your<br><em>problem?</em></h2>
       <p class="contact-sub">Describe it to us. The simpler the better. We'll tell you how we can help — usually within the same day.</p>
       <div class="contact-info">
-        <div><a href="mailto:hello@mirandahospitality.pt">hello@mirandahospitality.pt</a></div>
+        <div><a href="/cdn-cgi/l/email-protection#48202d2424270825213a29262c2920273b38213c2924213c3166383c"><span class="__cf_email__" data-cfemail="caa2afa6a6a58aa7a3b8aba4aeaba2a5b9baa3beaba6a3beb3e4babe">[email&#160;protected]</span></a></div>
         <div>+351 xxx xxx xxx</div>
         <div>Lisbon · Porto · Algarve</div>
       </div>
@@ -558,13 +558,4 @@ We work quietly. We do not advertise our clients’ situations. We report clearl
     <p class="footer-copy">© 2025 Miranda Hospitality · Lisbon, Portugal</p>
   </footer>
 
-  <script>
-    document.querySelectorAll('.ig-cell').forEach(cell => {
-      cell.addEventListener('click', () => {
-        window.open('https://www.instagram.com/miranda_hospitality', '_blank', 'noopener');
-      });
-    });
-  </script>
-
-</body>
-</html>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></
